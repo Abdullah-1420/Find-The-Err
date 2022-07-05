@@ -7,7 +7,7 @@ export default {
         url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_nF97CSsqJIjQQuBJX5M0wHU4zQYfKsQX2A&usqp=CAU",
         width: 1200,
         height: 1200,
-        box_count: 5,
+        box_count: 6,
       },
       {
         id: "6986",

@@ -3,18 +3,18 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./component/Header";
 import Cards from "./component/Cards";
 import About from "./component/About";
+import Home from "./component/Home";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
-
-        <Route>
-          <Routes path="/"></Route>
-          <Routes path="/Cards" element={Cards }></Route>
-          <Routes path="/About" element={About }></Route>
-        </Route>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/Cards" element={<Cards/> }></Route>
+          <Route path="/About" element={<About/> }></Route>
+        </Routes>
       </Router>
     </div>
   );
